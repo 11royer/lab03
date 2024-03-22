@@ -1,0 +1,38 @@
+Archivo .gitignore : es para especificar archivos y directorios
+que Git debe ignorar.
+
+# Ignorar al directorio node_modules
+node_modules/
+
+# Ignorar archivos de configuracion especifica del entorno
+.env
+
+Archivo package.json : es para metadatos para un Node.js,
+contiene informacion, como el nombre , version, dependecioas, scripts, etc
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "description": "Una breve descripción del proyecto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "chai": "^4.3.4"
+  }
+}
+
+Archivo .env : almacena variables de entorno, por ejemplo almacenar claves de API
+
+PORT=3000
+DB_HOST=localhost
+DB_USER=admin
+DB_PASS=password123
+
+Archivo README.md : describe el proyecto, donde contiene informacion de instalacion, configuracion y utilizacion del proyecto
