@@ -1,0 +1,8 @@
+las arrow functions, es un concepto de javaScript y callbacks, lo cual se utilizan 
+para los codigos mas concisos y manejo del asicronismo. ejemplo sintaxis "this" "() => {}"
+// funcion tradicional
+function suma(a, b) {
+  return a + b;
+}
+// Arrow function
+const suma = (a, b) => a + b;
